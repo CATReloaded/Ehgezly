@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'ehgezly',
+    'Ehgezly',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +125,4 @@ STATICFILES_DIRS = [
     STATIC_DIR,
 ]
 
+LOGIN_REDIRECT_URL = '/'

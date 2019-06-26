@@ -1,8 +1,31 @@
-<html>
-  <head>
-    <title></title>
-    <meta content="">
-    <style></style>
-  </head>
-  <body></body>
-</html>
+body{
+    font-family: BrandonText,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3.card-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+p.card-text{
+    font-weight: 400;    
+    line-height: 20px;    
+    font-size: 14px;
+}
+
+.sp{
+    color: #2d333f;
+}
+
+.bf{
+    margin-left: .25rem
+}
+
+.bf::before{
+    content: "\2022";
+    margin-right: .25rem;
+}
